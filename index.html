@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Trainer</title>
+</head>
+<body>
+    <header>
+        <h1>Seja Mais Saudável com o Personal Trainer</h1>
+        <button class="contact-button">Entre em Contato com o Caio</button>
+    </header>
+
+    <section class="highlight">
+        <img src="ptrainer.jpg" alt="Personal Trainer em ação">
+        <div class="highlight-content">
+            <h2>Transforme seu Corpo e sua Vida</h2>
+            <p>Descubra como atingir seus objetivos de condicionamento físico e saúde com um treinamento personalizado.</p>
+            <button class="cta-button">Agende sua Primeira Sessão</button>
+        </div>
+    </section>
+
+    <section class="about">
+        <img src="homem.jpg" alt="Foto do Personal Trainer">
+        <div class="about-content">
+            <h2>Sobre o Personal Trainer</h2>
+            <p>Caio é um profissional altamente qualificado com anos de experiência em fitness e saúde. Ele está comprometido em ajudá-lo a alcançar seus objetivos de forma segura e eficaz.</p>
+            <div class="contact-info">
+                <p>Telefone: (123) 456-7890</p>
+                <p>Email: caio@personaltrainer.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Depoimentos de Clientes Satisfeitos</h2>
+        <div class="testimonial">
+            <p>"O treinamento com o Personal Caio mudou minha vida. Estou mais saudável e confiante do que nunca."</p>
+            <p class="client-name">- Camila </p>
+        </div>
+        <div class="testimonial">
+            <p>"O Personal Trainer é incrível! Ele personalizou meu treinamento e me ajudou a alcançar resultados incríveis."</p>
+            <p class="client-name">- Jairo</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service">
+            <h3>Treinamento Personalizado</h3>
+            <p>Programas de treinamento sob medida para atender às suas metas e necessidades específicas.</p>
+        </div>
+        <div class="service">
+            <h3>Avaliação de Saúde</h3>
+            <p>Realizamos avaliações de saúde para rastrear seu progresso e adaptar seu plano de treinamento.</p>
+        </div>
+        <div class="service">
+            <h3>Planos de Dieta</h3>
+            <p>Oferecemos orientação nutricional para ajudá-lo a alcançar seus objetivos de perda de peso e saúde.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Entre em Contato</h2>
+        <p>Deixe-nos ajudá-lo a iniciar sua jornada para uma vida mais saudável. Preencha o formulário abaixo e entraremos em contato em breve!</p>
+        <form action="processar-formulario.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Telefone: (123) 456-7890 | Email: caio@personaltrainer.com</p>
+        <div class="social-icons">
+            <a href="#" class="facebook-icon"><img src="facebook2.png" alt="Facebook"></a>
+            <a href="#" class="instagram-icon"><img src="instagram2.png" alt="Instagram"></a>
+            <a href="#" class="twitter-icon"><img src="twitter2.png" alt="Twitter"></a>
+        </div>
+    </footer>
+</body>
+</html>
